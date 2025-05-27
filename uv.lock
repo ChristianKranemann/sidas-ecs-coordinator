@@ -74,6 +74,15 @@ wheels = [
 ]
 
 [[package]]
+name = "dacite"
+version = "1.9.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/55/a0/7ca79796e799a3e782045d29bf052b5cde7439a2bbb17f15ff44f7aacc63/dacite-1.9.2.tar.gz", hash = "sha256:6ccc3b299727c7aa17582f0021f6ae14d5de47c7227932c47fec4cdfefd26f09", size = 22420 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/94/35/386550fd60316d1e37eccdda609b074113298f23cef5bddb2049823fe666/dacite-1.9.2-py3-none-any.whl", hash = "sha256:053f7c3f5128ca2e9aceb66892b1a3c8936d02c686e707bee96e19deef4bc4a0", size = 16600 },
+]
+
+[[package]]
 name = "dataclasses-json"
 version = "0.6.7"
 source = { registry = "https://pypi.org/simple" }
@@ -333,12 +342,13 @@ wheels = [
 
 [[package]]
 name = "sidas"
-version = "0.2.7"
+version = "0.2.9"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
     { name = "click" },
     { name = "croniter" },
+    { name = "dacite" },
     { name = "dataclasses-json" },
     { name = "duckdb" },
     { name = "pandas" },
@@ -348,9 +358,9 @@ dependencies = [
     { name = "smart-open", extra = ["s3"] },
     { name = "sqlalchemy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fa/8e/4d50e9bb716e75e91ea6037883694c5b63f13763c9ea14a16a10b203a1ec/sidas-0.2.7.tar.gz", hash = "sha256:df3c65f152281b67c84c282d5061f05e0f8c5989b3f1d9588dc5aeb1cd08377a", size = 718589 }
+sdist = { url = "https://files.pythonhosted.org/packages/32/dc/bbaefd9b863bb91c1a25b5ee1bb18ef8dde6f2fcd1f79ae473ccdb357273/sidas-0.2.9.tar.gz", hash = "sha256:7b544872598547484624b59732eaab9d3b8aaa934aaaee130b9017b92b6940c9", size = 738979 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b6/90/e4ae8d5a11e5859f2d03ff813d66d214d705e8cd33931b2cc5c4f3fd56a5/sidas-0.2.7-py3-none-any.whl", hash = "sha256:11cf992486d3a665b907b7447aa7ceded086c1357bee5d0cf0ab02332bccb3ea", size = 32658 },
+    { url = "https://files.pythonhosted.org/packages/78/db/f6bf2f0c8384b6e8dc11b225ec114f2679f2dda90ee441e14786c350b394/sidas-0.2.9-py3-none-any.whl", hash = "sha256:ba5f328f2feedbbf36bd7d287dd94ee923891396a28f98d9535634fc6a6a40ad", size = 34521 },
 ]
 
 [[package]]
@@ -362,7 +372,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "sidas", specifier = ">=0.2.7" }]
+requires-dist = [{ name = "sidas", specifier = ">=0.2.9" }]
 
 [[package]]
 name = "six"
