@@ -1,3 +1,9 @@
+## 0.1.2 (2025-05-30)
+
+### Fix
+
+- updating coordinator to the latest sidas version
+
 ## 0.1.1 (2025-05-27)
 
 ### Fix
