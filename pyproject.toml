@@ -8,7 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "sidas>=0.2.9",
+    "sidas>=0.2.11",
 ]
 
 [build-system]

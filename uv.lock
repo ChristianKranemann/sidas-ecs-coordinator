@@ -342,7 +342,7 @@ wheels = [
 
 [[package]]
 name = "sidas"
-version = "0.2.9"
+version = "0.2.11"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
@@ -358,9 +358,9 @@ dependencies = [
     { name = "smart-open", extra = ["s3"] },
     { name = "sqlalchemy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/32/dc/bbaefd9b863bb91c1a25b5ee1bb18ef8dde6f2fcd1f79ae473ccdb357273/sidas-0.2.9.tar.gz", hash = "sha256:7b544872598547484624b59732eaab9d3b8aaa934aaaee130b9017b92b6940c9", size = 738979 }
+sdist = { url = "https://files.pythonhosted.org/packages/7a/87/2fac630e601674ae05213eb29da69bd9b49856e3b1ff4a83853ea5031f81/sidas-0.2.11.tar.gz", hash = "sha256:ffac6e71344ba9821c679201951489b5ce76dd9aca31fedf3a83e8cb268750da", size = 738653 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/78/db/f6bf2f0c8384b6e8dc11b225ec114f2679f2dda90ee441e14786c350b394/sidas-0.2.9-py3-none-any.whl", hash = "sha256:ba5f328f2feedbbf36bd7d287dd94ee923891396a28f98d9535634fc6a6a40ad", size = 34521 },
+    { url = "https://files.pythonhosted.org/packages/35/f3/606a96ffa0addb6cbdcea84613f475bf9566c31ea1804d3251990b05be82/sidas-0.2.11-py3-none-any.whl", hash = "sha256:d5985d97c716ab5bf0f6b718ad162a6aa00517de62b814a3d8bf0a0d0d10813b", size = 34414 },
 ]
 
 [[package]]
@@ -372,7 +372,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "sidas", specifier = ">=0.2.9" }]
+requires-dist = [{ name = "sidas", specifier = ">=0.2.11" }]
 
 [[package]]
 name = "six"

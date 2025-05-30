@@ -55,6 +55,3 @@ class EcsCoordinator(Coordinator):
                 ]
             },
         )
-
-        # the task has been kicked off without an error, we can set the status
-        asset.in_trigger_materialization()
